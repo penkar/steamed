@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
-  entry: './src/idx.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.bundle.js'
@@ -9,12 +9,17 @@ module.exports = {
   module: {
     rules: [{
       test: /\.js$/,
-      loader: 'babel-loader'
+      loader: 'babel-loader',
+    },{
+      test:/.scss$/,
+      exclude:/node_modules/,
+      use:['style-loader', 'css-loader', 'sass-loader']
     }]
   },
   stats: {
     colors: true
   },
   mode:'development',
-  devtool: 'source-map'
+  devtool: 'source-map',
+  watch:true
 };

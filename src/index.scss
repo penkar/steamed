@@ -1,0 +1,35 @@
+$w:#ffffff;
+$bw100: #FAFAFA;
+$bw200: #F5F5F5;
+$bw300: #EEEEEE;
+$bw400: #E0E0E0;
+$bw500: #BDBDBD;
+$bw600: #9E9E9E;
+$bw700: #616161;
+$bw800: #424242;
+$bw900: #212121;
+$b:#000000;
+
+$bg0: #ECEFF1;
+$bg100: #CFD8DC;
+$bg200: #B0BEC5;
+$bg300: #90A4AE;
+$bg400: #78909C;
+$bg500: #607D8B;
+$bg600: #546E7A;
+$bg700: #455A64;
+$bg800: #37474F;
+$bg900: #263238;
+
+@import './css/wrapper.scss';
+
+body {
+  background-color: $w;
+
+  margin: 0px;
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

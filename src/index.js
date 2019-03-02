@@ -1,4 +1,4 @@
-
+require('./index.scss');
 
 function init() {
   console.log('hello');

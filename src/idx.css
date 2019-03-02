@@ -1,9 +1,0 @@
-body {
-  margin: 0px;
-}
-
-body #wrapper {
-  background-color: lightgray;
-  min-height: 90vh;
-  min-width: 90vw;
-}
