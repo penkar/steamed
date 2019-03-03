@@ -22,6 +22,12 @@ $bg800: #37474F;
 $bg900: #263238;
 
 @import './css/wrapper.scss';
+@import './css/header.scss';
+@import './css/messages.scss';
+@import './css/application.scss';
+@import './css/footer.scss';
+@import './css/modal.scss';
+@import './css/app.scss';
 
 body {
   background-color: $w;
