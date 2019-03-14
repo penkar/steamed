@@ -1,8 +1,8 @@
 #wrapper {
-  height: 90vh;
-  width: 90vw;
-
+  height: 98vh;
+  width: 98vw;
   background-color: $bw200;
-  border: solid 1px $bw700;
-  border-radius: 4px;
+  border: dashed 1px $bw700;
+
+  position: relative;
 }

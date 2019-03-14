@@ -12,6 +12,9 @@ class App {
   messages = Messages;
   modal = Modal;
   wrapper = Wrapper;
+  constructor() {
+    console.log(this);
+  }
 }
 
 export default (new App)

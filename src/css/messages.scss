@@ -1,0 +1,23 @@
+#messages, #messages-cover {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 200px;
+}
+#messages {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  overflow: hidden;
+
+  >div.message {
+    margin-bottom: 8px;
+  }
+}
+
+#messages-cover {
+  height: 100%;
+  background: linear-gradient( rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100% );
+}
