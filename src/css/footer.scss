@@ -1,8 +1,19 @@
 #footer {
+  display: flex;
+  align-items: center;
+
   position: absolute;
   left: 200px;
   right: 0px;
   bottom: 0px;
-  height: 75px;
-  background-color: silver;
+  height: 36px;
+
+  background-color: $bg0;
+
+  >a.link {
+    padding: 4px 8px;
+    color: $bg800;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }

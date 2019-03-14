@@ -3,6 +3,11 @@
   left: 200px;
   right: 0px;
   top: 0px;
-  height: 75px;
-  background-color: cadetblue;
+  height: 48px;
+  background-color: $bg0;
+
+  >.title {
+    font-size: 24px;
+    color: $bw800;
+  }
 }
