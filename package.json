@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"webpack --config webpack.development.js",
-    "server":"python -m SimpleHTTPServer 8000",
+    "start": "webpack --config webpack.development.js",
+    "server": "python -m SimpleHTTPServer 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "mobx": "^5.9.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-syntax-decorators": "^7.2.0",
     "@babel/preset-env": "^7.3.4",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
