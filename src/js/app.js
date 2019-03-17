@@ -1,9 +1,10 @@
-import Application from './application';
-import Footer from './footer';
-import Header from './header';
-import Messages from './messages';
-import Modal from './modal';
-import Wrapper from './wrapper';
+import Application from './classes/application';
+import Footer from './classes/footer';
+import GlobalState from './classes/globalstate';
+import Header from './classes/header';
+import Messages from './classes/messages';
+import Modal from './classes/modal';
+import Wrapper from './classes/wrapper';
 
 class App {
   application = Application;
@@ -13,7 +14,6 @@ class App {
   modal = Modal;
   wrapper = Wrapper;
   constructor() {
-    console.log(this);
   }
 }
 

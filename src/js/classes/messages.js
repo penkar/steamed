@@ -1,9 +1,8 @@
-import { observable } from 'mobx';
-import { DCE } from './utilities.js'; 
+import { DCE } from '../utilities.js'; 
 
 class Messages {
-  @observable asdf = 1;
   element = document.getElementById('messages');
+  body = document.body;
   constructor() {
     this.messages = [];
     for(let i = 0; i < 40; i++) {this.createMessage();}
