@@ -1,0 +1,17 @@
+#modal {
+  .smallModal, .largeModal {
+    border: solid 1px $bg800;
+    box-shadow: 2px 2px;
+  }
+  .smallModal {
+    height: 3rem;
+    width: 15rem;
+  }
+  .largeModal {
+    position: fixed;
+    left: 20vw;
+    right: 20vw;
+    top: 15vh;
+    bottom: 15vh;
+  }
+}
